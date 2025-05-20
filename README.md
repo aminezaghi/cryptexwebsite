@@ -71,8 +71,6 @@ The platform uses the CoinGecko API to fetch real-time cryptocurrency data. To u
 For support, users can:
 
 1. Create a support ticket through the ticket system (`ticket.html`)
-2. Contact support via email: hello.cryptex@gmail.com
-3. Call support: +212 695 602 066
 
 ## Contributing
 
