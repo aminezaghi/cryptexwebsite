@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cryptex - Buy & Sell Digital Assets In The cryptex</title>
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" data-header>
+        <div class="container">
+    
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo.svg" width="32" height="32" alt="Cryptex logo">
+            Cryptex
+          </a>
+    
+          <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
+    
+              <li class="navbar-item">
+                <a href="index.html" class="navbar-link " data-nav-link>Homepage</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="index.html#1" class="navbar-link" data-nav-link>Market</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="index.html#2" class="navbar-link" data-nav-link>How It Work</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="index.html#3" class="navbar-link" data-nav-link>App</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="index.html#4" class="navbar-link" data-nav-link>FAQ's</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="index.html#5" class="navbar-link" data-nav-link>Ask us</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="navbar-link active" data-nav-link>Ticket</a>
+              </li>
+    
+            </ul>
+          </nav>
+    
+          <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+          </button>
+    
+          <a href="api.html" class="btn btn-outline">Api</a>
+    
+        </div>
+      </header>
+
+      <div class="flex flex-col items-center justify-center h-screen light">
+        <div class="w-full 	 rounded-lg shadow-md ticket p-6">
+          <h1 class="text-5xl font-bold text-white-800 mb-4">Create ticket</h1>
+          <p class="my-10">Please open only one support ticket per issue. <br>
+            Creating multiple tickets will result in longer reply times.</p>
+      
+          <form class="flex flex-col">
+            
+            <label for="em" class="">Email</label>
+            <input placeholder="Enter your email" id="em" important class="px-5 ticketitem text-gray-800 border-0 rounded-md p-2 mb-8 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="email">
+            <label for="product" class="">Category</label>
+            <select class="ticketitem px-5  border-0 rounded-md p-2 mb-8  focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" id="product">
+                <option value="product-1">Other</option>
+                <option value="product-2">Withdrawl</option>
+                <option value="product-3">Deposit</option>
+                <option value="product-3">Verification</option>
+                <option value="product-3">Api</option>
+                <option value="product-3">Security</option>
+                <option value="product-3">General information</option>
+                <option value="product-3">Suggestion</option>
+                <option value="product-3">Advertising</option>
+              </select>
+            <label for="ti" class="">Title</label>
+            <input placeholder="Title" id="ti" class="ticketitem px-5 text-gray-800 border-0 rounded-md p-2 mb-8 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="text">
+            
+            <label for="me" class="">Message</label>
+            <textarea placeholder="Message" id="me" class="ticketitem px-5 text-gray-800 border-0 rounded-md p-2 mb-8 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" name="feedback"></textarea>
+              
+
+            <p class="terms my-5">
+                By creating a ticket, you agree to Cryptex’s <a href="#" class="text-blue-500">Terms of Service</a> and <a href="#" class="text-blue-500">Privacy Policy</a>
+            </p>
+            <button class="bg-gradient-to-r from-indigo-500 to-blue-500 text-white font-bold py-2 px-4 rounded-md mt-8 hover:bg-indigo-600 hover:to-blue-600 transition ease-in-out duration-150" type="submit">Create Ticket</button>
+          </form>
+        </div>
+      </div>
+      
+
+
+      <footer class="footer">
+
+        <div class="footer-top" >
+          <div class="container">
+    
+            <div class="footer-brand">
+    
+              <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="50" height="50" alt="Cryptex logo">
+                Cryptex
+              </a>
+    
+              <h2 class="footer-title">Let's talk! 🤙</h2>
+    
+              <a href="tel:+123456789101" class="footer-contact-link">+212 695 602 066</a>
+    
+              <a href="mailto:hello.cryptex@gmail.com" class="footer-contact-link">hello.cryptex@gmail.com</a>
+    
+              <address class="footer-contact-link">
+                Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522
+              </address>
+    
+            </div>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Products</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Spot</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Inverse Perpetual</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">USDT Perpetual</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Exchange</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Launchpad</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Binance Pay</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Services</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Buy Crypto</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Markets</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Tranding Fee</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Affiliate Program</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Referral Program</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">API</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Support</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Bybit Learn</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Help Center</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">User Feedback</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Submit a request</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">API Documentation</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Trading Rules</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">About Us</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">About Bybit</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Authenticity Check</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Careers</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Business Contacts</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Blog</a>
+              </li>
+    
+            </ul>
+    
+          </div>
+        </div>
+    
+        <div class="footer-bottom">
+          <div class="container">
+    
+            <p class="copyright">
+              &copy; 2024 Cryptex All Rights Reserved by <a href="#" class="copyright-link">Amine Zaghi</a>
+            </p>
+    
+            <ul class="social-list">
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+    
+            </ul>
+    
+          </div>
+        </div>
+    
+      </footer>
+
+      
+</body>
+</html>
